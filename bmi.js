@@ -34,4 +34,8 @@ function calc() {
     bmiList.push(bmiCalc);
     //printing the full list in the console
     console.log(bmiList);
+
+    document.querySelector("#name").value = '';
+    document.querySelector("#weight").value = '';
+    document.querySelector("#height").value = '';
 };
